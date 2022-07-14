@@ -1,5 +1,11 @@
 body {
+ height: 100vh;
+ margin: 0;
+ overflow: hidden;
  font-family: Arial, Helvetica, sans-serif;
+ display: flex;
+ flex-direction: column;
+
 }
 .header,
 .hero,
@@ -32,3 +38,42 @@ body {
     color: #E5E7EB;
 }
 
+.hero{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.main-text {
+    font-size: 48px;
+}
+
+.secondary-text {
+    font-size: 15px;
+    color: #E5E7EB;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 400px;
+    height:250px;
+
+}
+
+button {
+    color:#E5E7EB;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3882F6 ;
+    width: 90px;
+    padding: 3px;
+}
+
+.mountain {
+    height: 250px;
+    width: auto;
+}
