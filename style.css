@@ -7,6 +7,10 @@ body {
  flex-direction: column;
 
 }
+
+.site-content {
+    flex: 1;
+}
 .header,
 .hero,
 .footer {
@@ -76,4 +80,62 @@ button {
 .mountain {
     height: 250px;
     width: auto;
+}
+.info-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 40px;
+}
+
+.card {
+   max-width: 150px;
+   font-size: 12px;
+   color: #97999c;
+    
+}
+
+.information-container img {
+    height:auto;
+    width: 150px;
+    border:3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 150px;
+}
+
+.quote {
+    max-width: 700px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937
+}
+
+.author {
+    font-weight: bold;
+    padding-top: 50px;
+    align-self: flex-end;
+}
+
+.footer {
+    margin-bottom: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center ;
 }
